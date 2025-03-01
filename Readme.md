@@ -5,17 +5,18 @@
 The current pipeline uses locally running postgres database. Also there is additional config to run on Supabase postgres, this was used to load the data in looker studio. 
 
 To test on own installation, make changes to the ```vanilla/profiles.yml ``` file 
-
+## Python environment: 
 To create tables and injest data: 
 
-Create venv in python 
+1. Create venv in python 
 ```
 python -m venv venv 
 ./venv/bin/activate # For Linux/Mac
 source venv/Scripts/activate # For Windows
 
 ```
-Install the pip dependencies
+
+2. Install the pip dependencies
 ```
 pip install -r requirements.txt
 ```
