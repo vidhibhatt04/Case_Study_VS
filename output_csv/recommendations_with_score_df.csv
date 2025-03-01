@@ -1,0 +1,10 @@
+,buyer_id,supplier_id,match_score,article_id,grade,material,finish,thickness_mm,width_mm,weight_kg,quantity,quality_choice,reserved_status
+0,Buyer1,1,66.16,,C100S,,gebeizt und geglüht,2.32,1150.0,8410.0,25,1st,
+1,Buyer1,1,60.68,,C100S,,ungebeizt,2.08,1100.0,8261.0,23,3rd,
+2,Buyer1,1,56.85,,C100S,,gebeizt,2.01,1050.0,8047.0,23,1st,
+3,Buyer2,2,0.0,23044935,,S235JR,,,,10571.0,60,,NOT RESERVED
+4,Buyer2,2,0.0,23047939,,DX51D +AZ150,,,,9217.0,72,,NOT RESERVED
+5,Buyer2,2,0.0,23045099,,DX51D +AZ150,,,,9037.0,78,,NOT RESERVED
+6,Buyer3,2,0.0,23041966,,DX51D +AZ150,,,,12119.0,66,,VANILLA
+7,Buyer3,2,0.0,23044935,,S235JR,,,,10571.0,60,,NOT RESERVED
+8,Buyer3,2,0.0,23049059,,DX51D +Z140,,,,12999.0,95,,VANILLA

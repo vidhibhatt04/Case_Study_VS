@@ -1,0 +1,9 @@
+,buyer_id,supplier_id,article_id,grade,finish,thickness_mm,width_mm,weight_kg,quantity,buyer_max_weight,buyer_min_order
+0,Buyer1,1,,C200S,gebeizt,2.03,1050.0,5491.0,23,10000.0,20
+1,Buyer1,1,,C300S,gebeizt,2.32,1150.0,5979.0,25,10000.0,20
+2,Buyer1,1,,C100S,gebeizt und geglüht,2.32,1150.0,8410.0,25,10000.0,20
+3,Buyer1,1,,C300S,gebeizt,2.53,1100.0,5124.0,25,10000.0,20
+4,Buyer1,1,,C100S,gebeizt,2.01,1050.0,8047.0,23,10000.0,20
+5,Buyer1,1,,C100S,ungebeizt,2.08,1100.0,8261.0,23,10000.0,20
+6,Buyer1,1,,C100S,gebeizt und geglüht,2.75,1050.0,9110.0,23,10000.0,20
+7,Buyer1,1,,C100S,gebeizt und geglüht,2.74,1000.0,6947.0,23,10000.0,20

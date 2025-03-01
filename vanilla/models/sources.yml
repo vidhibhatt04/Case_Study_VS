@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: buyers_sellers
+    database: postgres
+    schema: public
+    tables:
+      - name: buyers
+        description: "Buyer preference data"
+      - name: suppliers
+        description: "Combined supplier inventory data"
+  - name: deals
+    database: postgres
+    schema: public
+    tables:
+      - name: deals
+        description: "deal data"
+      
+  

@@ -1,0 +1,35 @@
+{
+    "common_columns": [
+        "supplier_id",
+        "material",
+        "grade",
+        "quality_choice",
+        "finish",
+        "thickness_mm",
+        "width_mm",
+        "weight_kg",
+        "quantity",
+        "description",
+        "article_id",
+        "reserved_status"
+    ],
+    
+    "supplier_data1.xlsx": {
+        "Quality/Choice": "quality_choice",
+        "Grade": "grade",
+        "Finish": "finish",
+        "Thickness (mm)": "thickness_mm",
+        "Width (mm)": "width_mm",
+        "Gross weight (kg)": "weight_kg",
+        "Quantity": "quantity",
+        "Description": "description"
+    },
+    "supplier_data2.xlsx": {
+        "Material": "material",
+        "Article ID": "article_id",
+        "Weight (kg)": "weight_kg",
+        "Quantity": "quantity",
+        "Description": "description",
+        "Reserved": "reserved_status"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "common_columns": [
+        "buyer_id",
+        "preferred_grade",
+        "preferred_finish",
+        "preferred_thickness_mm",
+        "preferred_width_mm",
+        "max_weight_kg",
+        "min_quantity"
+    ],
+    "buyer_preferences.xlsx": {
+        "Buyer ID": "buyer_id",
+        "Preferred Grade": "preferred_grade",
+        "Preferred Finish": "preferred_finish",
+        "Preferred Thickness (mm)": "preferred_thickness_mm",
+        "Preferred Width (mm)": "preferred_width_mm",
+        "Max Weight (kg)": "max_weight_kg",
+        "Min Quantity": "min_quantity"
+    }
+}
+

@@ -1,0 +1,23 @@
+# vanilla:
+#   outputs:
+#     dev:
+#       type: postgres
+#       host: aws-0-eu-central-1.pooler.supabase.com
+#       user: postgres.ewmvkcsbdzpgqtftubyz
+#       password: VanillaSteelVidhi
+#       port: 6543
+#       dbname: postgres # or database instead of dbname
+#       schema: public
+#   target: dev
+
+vanilla:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: myusername
+      password: mypassword
+      port: 5432
+      dbname: postgres # or database instead of dbname
+      schema: public
+  target: dev

@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_buyers
+    description: "Cleaned buyer preferences"
+    columns:
+      - name: buyer_id
+        description: "Unique buyer identifier"
+        tests:
+          - not_null
+          - unique
+
+  - name: stg_suppliers
+    description: "Filtered supplier inventory with technical specs"
+    columns:
+      - name: supplier_id
+        tests:
+          - not_null

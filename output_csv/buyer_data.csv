@@ -1,0 +1,4 @@
+,id,buyer_id,preferred_grade,preferred_finish,preferred_thickness_mm,preferred_width_mm,max_weight_kg,min_quantity
+0,1,Buyer1,C100S,gebeizt,2.25,1075.0,10000.0,20
+1,2,Buyer2,C200S,ungebeizt,2.5,1100.0,12000.0,30
+2,3,Buyer3,C300S,gebeizt und geglüht,2.75,1150.0,15000.0,40
