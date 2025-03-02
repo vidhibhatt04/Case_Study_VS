@@ -3,3 +3,5 @@ dbt-postgres
 pandas 
 sqlalchemy
 openpyxl
+matplotlib
+seaborn

@@ -23,6 +23,9 @@ pip install -r requirements.txt
 
 # Task 1
 
+For the task 1, the jupyter notebook is stored under task_1 folder. Execute ```jupyter notebook``` and open the file. The data is stored in the data/task_1 directory.
+
+
 # Task 2
 
 The deals.csv is used to migrate to a database using the dbt seed method. Execute the below commands:
@@ -30,7 +33,9 @@ The deals.csv is used to migrate to a database using the dbt seed method. Execut
 ```
 cd vanilla 
 dbt seed
+dbt run
 ```
+The dbt pipeline creates seeds the deals.csv into a databasse table. The `dbt run` command creates views for account manager insights for the looker dashboard. 
 
 # Task 3
 
@@ -74,7 +79,7 @@ The above script creates two tables in the databse:
 **recommendations_scoring**: Assigns a matching score by taking into consideration the folowing: Grade, Finish and Thickness 
  
 ### Testing with DBT
-To test the data integreity 
+To test the data integreity, currently it checks the buyer_id is not null and the article ID is unique in the buyers and suppliers data respectively.
 ```
 dbt test 
 ```
